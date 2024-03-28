@@ -625,6 +625,7 @@ int main(void)
 		return 0;
 	}
 
+	/* All leds blinking */
 	for (;;) {
 		int led_on = blink_status % 2;
 		blink_status++;
